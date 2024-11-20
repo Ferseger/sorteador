@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteador de Números</title>
+    <link rel="stylesheet" href="sorteador.css">
+    <meta name="author" content="Fernando Luiz Seger">
+</head>
+
+<body>
+    <header>
+        <img src="dados_de_rpg_conjunto_com_7_dados_opacos_chon_drite_red_font_mercado_rpg_25460415_2_ba28a2ffd7c36932126a687a61cd7e25_20240410125851.webp" alt="logo">
+    </header>
+
+    <h1>Sorteador</h1>
+
+        <p class="resultado">--</p>
+
+    <p>Sortear um Número</p>
+
+    <main>
+
+        <input class="input-min" type="number" min="0" placeholder="Valor mínimo">
+
+        <input class="input-max" type="number" min="1" placeholder="Valor máximo">
+
+    </main>
+
+    <div class="botao">
+        <button class="botao-sortear">Sortear</button>
+        <button onclick="limparCampos()" class="limpar-numeros">Limpar</button>
+    </div>
+
+</body>
+<script src="sorteador.js"></script>
+
+</html>
